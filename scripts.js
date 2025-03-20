@@ -1,6 +1,6 @@
 //
 
-const links = document.querySelectorAll("a#link_contact");
+const links = document.querySelectorAll("a#link_contact")
 
 links.forEach((link) => {
     link.addEventListener("click", (event) => scrollToSection(event, link))
